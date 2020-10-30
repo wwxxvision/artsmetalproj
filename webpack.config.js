@@ -3,15 +3,17 @@ const STATIC = require("./params/webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
-  mode: "development",
+  mode: "production",
   entry: path.resolve(__dirname, STATIC.DEVELOPMENT_DIR) + STATIC.ENTRY_APP,
   output: {
     path: path.resolve(__dirname, STATIC.BUILD_DIR),
     filename: STATIC.OUTPUT_FILENAME,
+    publicPath: path.resolve(__dirname, STATIC.BUILD_DIR)
   },
-  
+
   resolve: {
     extensions: [".js"],
   },
@@ -30,6 +32,18 @@ module.exports = {
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin({
       filename: "[contenthash].css",
+    }),
+    new CopyPlugin({
+      patterns: [
+        {
+          from: path.resolve(__dirname, 'src/assets/img'),
+          to: path.resolve(__dirname, 'dist/img')
+        },
+        {
+          from: path.resolve(__dirname, 'src/assets/fonts'),
+          to: path.resolve(__dirname, 'dist/fonts')
+        }
+      ]
     }),
   ],
   module: {
@@ -60,16 +74,17 @@ module.exports = {
         loader: "file-loader",
         options: {
           name: "assets/fonts/[name].[ext]",
+          outputPath: "[name].[ext]",
         },
       },
       {
-        test: /\.(png|jpe?g|gif)$/i,
+        test: /\.(png|jpe?g|gif)$/,
         use: [
           {
             loader: "file-loader",
             options: {
               name: "assets/fonts/[name].[ext]",
-              outputPath: "[filename]/[name].[ext]",
+              outputPath: "[name].[ext]",
             },
           },
         ],
