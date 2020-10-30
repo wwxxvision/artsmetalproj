@@ -11,6 +11,7 @@ module.exports = {
     path: path.resolve(__dirname, STATIC.BUILD_DIR),
     filename: STATIC.OUTPUT_FILENAME,
   },
+  
   resolve: {
     extensions: [".js"],
   },
