@@ -1,0 +1,102 @@
+/* default styles */
+
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+
+html,
+body {
+   background-color: #17171e;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+:focus,
+:active {
+   outline: none;
+}
+
+a:focus,
+a:active {
+   outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+   display: block;
+}
+
+input::-ms-clear {
+   display: none;
+}
+
+button {
+   cursor: pointer;
+}
+
+button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+}
+
+a,
+a:visited {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+ul li {
+   list-style: none;
+}
+
+/*  common styles  */
+
+.content-container {
+   padding: 0 $pd_content_container;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+
+.container {
+   padding: 0 120px;
+   margin: 0 auto;
+}
+
+.theme_gold {
+   background: linear-gradient(276.5deg, #b48c52 0%, #ecc893 195.44%);
+}
+
+.phone-link {
+   -webkit-text-fill-color: transparent;
+   -moz-text-fill-color: transparent;
+   background: $clr_gradient_orange;
+   font-family: $ft_mlr_bold;
+   background-size: 100%;
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+   display: inline-block;
+   font-size: 14px;
+}
+
+.button {
+   transition: background 0.2s ease-in;
+   &:hover {
+      background: #e7c595;
+   }
+}

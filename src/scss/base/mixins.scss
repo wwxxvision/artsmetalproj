@@ -1,0 +1,11 @@
+@mixin mxn_flx_centered_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin mxn_bg_full_screen {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,18 @@
+.button {
+   /*@include mxn_flx_centered_content;*/
+   &.button_size_desktop {
+      height: 65px;
+      width: 220px;
+      border-radius: 3px;
+      color: #fff;
+      border: none;
+   }
+
+   .button__title {
+      font-family: $ft_mlr_extbold;
+      font-weight: 800;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+   }
+}

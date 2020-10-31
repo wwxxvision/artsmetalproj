@@ -1,0 +1,37 @@
+.footer-intro {
+   .slider-change-picture {
+      display: flex;
+      justify-content: space-between;
+      .slider-change-picture__counter {
+         font-family: $ft_mlr_bold;
+         color: #fff;
+         font-size: 14px;
+         background: $clr_gradient_orange;
+         -webkit-background-clip: text;
+         -moz-background-clip: text;
+         -webkit-text-fill-color: transparent;
+         -moz-text-fill-color: transparent;
+         span {
+            font-size: 40px;
+            font-family: $ft_mlr_regular;
+         }
+      }
+   }
+}
+.slider-change-picture__tabs {
+   display: flex;
+   & > div {
+      width: 28px;
+      height: 28px;
+      border-radius: 3px;
+      background-image: url("/assets/img/arrow.svg");
+      cursor: pointer;
+   }
+   & > div:not(:last-child) {
+      margin-right: 10px;
+   }
+
+   .slider-intro-control-right {
+      transform: rotate(180deg);
+   }
+}
