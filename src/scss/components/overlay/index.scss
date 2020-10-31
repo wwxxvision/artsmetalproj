@@ -37,7 +37,7 @@
 
    &.overlay-intro {
       @include mxn_bg_full_screen;
-      background-image: url("/assets/img/bg.jpg");
+      background-image: url("../assets/img/bg.jpg");
       position: relative;
       /* &.overlay-intro::after {
          content: "";

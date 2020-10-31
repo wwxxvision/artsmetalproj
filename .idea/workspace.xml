@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2155f85b-4ce3-42e3-9a19-fbf4c3a4a215" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/feedback-form/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/feedback-form/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/overlay/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/overlay/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/screen/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/screen/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/service/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/service/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/webpack.config.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/webpack.config.dev.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +47,7 @@
       <workItem from="1604083880512" duration="646000" />
       <workItem from="1604133806661" duration="68000" />
       <workItem from="1604133890265" duration="10015000" />
+      <workItem from="1604145655178" duration="656000" />
     </task>
     <servers />
   </component>
@@ -50,6 +55,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="666" y="253" width="587" height="534" key="find.popup" timestamp="1604146278615">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="253" width="587" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604146278615" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1604136829912">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
