@@ -2,78 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2155f85b-4ce3-42e3-9a19-fbf4c3a4a215" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/4fd0a43b7456b64c037f.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/Muller-Black.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/Muller-Bold.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/Muller-ExtraBold.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/Muller-Heavy.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/Muller-Light.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/Muller-Medium.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/Muller-Regular Italic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/Muller-Regular.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/Muller-Thin.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/Muller-UltraLight.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/MullerBlack.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/MullerBlack.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/MullerBold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/MullerBold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/MullerExtraBold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/MullerExtraBold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/MullerHeavy.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/MullerHeavy.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/MullerLight.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/MullerLight.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/MullerMedium.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/MullerMedium.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/MullerRegular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/MullerRegular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/MullerRegularItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/MullerRegularItalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/MullerThin.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/MullerThin.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/MullerUltraLight.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/MullerUltraLight.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/404.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/Fence-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/arrow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/back-work.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/bg-form.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/bg-form.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/checkbox-no-active.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/checkbox.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/feature2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/feature3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/features1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/fence-1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/fence-2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/fence-3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/finished-work1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/instagram 2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/instagram 2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/instagram-gray.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/intro/arrow.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/intro/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/next-work.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/vk-gray.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/vk.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/vk.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/debug.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/system/fonts/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/system/fonts/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +41,7 @@
       <workItem from="1604083698983" duration="169000" />
       <workItem from="1604083880512" duration="646000" />
       <workItem from="1604133806661" duration="68000" />
-      <workItem from="1604133890265" duration="8647000" />
+      <workItem from="1604133890265" duration="8729000" />
     </task>
     <servers />
   </component>
