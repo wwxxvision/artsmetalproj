@@ -4,15 +4,141 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
    <title>Artsmetall</title>
 
 </head>
 
 <body>
-
-
    <section class="screen screen_size_full">
+      <div class="screen__container screen__container__page-gallery">
+         <header class="header">
+            <div class="header__container">
+
+               <div class="header__element header__element-tabs">
+                  <div class="element-wrapper">
+                     <div class="burger">
+                        <span class="burger-line"></span>
+                        <span class="burger-line"></span>
+                        <span class="burger-line"></span>
+                     </div>
+                     <a class="phone-link" href="tel:+74959209490" class="header__element-phone">+7 495 920 94 90</a>
+                  </div>
+               </div>
+
+               <div class="header__element header__element-logo">
+                  <a href="#"><img src="assets/img/logo.svg" alt="Artsmetall"></a>
+               </div>
+
+               <div class="header__element header__element-phone">
+                  <a class="phone-link" href="tel:+74955023480">+7 495 502 34 80</a>
+               </div>
+
+            </div>
+         </header>
+         <section class="contacts">
+            <div class="content-container">
+               <div class="intro-content intro-content__contacts">
+                  <h1 class="intro-content__element intro-content__element-title intro-content__element-title-page">
+                     <span>Контакты</span></h1>
+
+                  <div class="contacts__adress">
+                     <span class="contacts__name-comapny">Графика Металла </span>
+                     <div class="adress"><span>121596, г. Москва, Можайское ш., д.165</span></div>
+                  </div>
+
+                  <div class="contacts__socials">
+                     <div class="numbers">
+                        <span class="first-number">+7 495 502 34 80</span>
+                        <span class="last-nuber">+7 495 920 94 90</span>
+                     </div>
+                     <div class="social">
+                        <span class="socail__wp">What's App +7 (925) 502-34-80</span>
+                     </div>
+                     <span class="graphic-work">Мы работаем ежедневно с 10:00 до 21:00</span>
+                  </div>
+                  <div class="contacts__email">
+                     <a href="mailto:wdwdwd@yandex.ru" class="email">info@artsmetal.ru</a>
+                  </div>
+
+               </div>
+            </div>
+         </section>
+      </div>
+   </section>
+
+
+
+
+
+  <section class="feedback-form">
+      <div class="container">
+         <div class="popup">
+            <div class="popup__wrapper">
+               <div class="popup-text-wrapper">
+                  <div class="popup-text">
+                     <h3>Заказать</h3>
+                     <p>Оставьте заявку, мы перезвоним вам
+                        в ближайшее время и ответим на все
+                        ваши вопросы</p>
+                  </div>
+               </div>
+               <div class="popup-form popup-form__complete-form">
+                  <div class="close__button">
+                     <img src="assets/img/Close.svg" alt="close">
+                  </div>
+                  <div class="img-complete">
+                     <img src="assets/img/complete.svg" alt="complete">
+                  </div>
+                  <div class="complete__popup-text">
+                     <h3>Заявка успешно <br /> отправленна</h3>
+                     <p>Оставьте заявку и мы перезвоним вам в ближайшее время <br />
+                        и ответим на все ваши вопросы</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+   <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+   <section class="popup-silder">
+
+      <div class="popup-silder__close">
+         <img src="assets/img/Close.svg" alt="close">
+      </div>
+
+      <div class="popup-silder__items">
+         <div class="popup-silder__items__img">
+            <img src="assets/img/back-work.png" alt="work-slider" width="375" height="292">
+         </div>
+         <div class="popup-silder__items__img popup-silder__items__img-center">
+            <img src="assets/img/back-work.png" alt="work-slider" width="794" height="619">
+            <p></p>
+         </div>
+         <div class="popup-silder__items__img">
+            <img src="assets/img/back-work.png" alt="work-slider" width="375" height="292">
+         </div>
+      </div>
+      <div class="popup-silder__slider">
+         <div class="circle"></div>
+         <div class="circle circle-active"></div>
+         <div class="circle"></div>
+         <div class="circle"></div>
+         <div class="circle"></div>
+         <div class="circle"></div>
+      </div>
+
+   </section>
+
+
+   <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+   <section class="screen">
       <div class="screen__container__page-not-found">
          <header class="header">
             <div class="header__container">
@@ -29,7 +155,7 @@
                </div>
 
                <div class="header__element header__element-logo">
-                  <a href="#"><img src="./assets/img/logo.svg" alt="Artsmetall"></a>
+                  <a href="#"><img src="assets/img/logo.svg" alt="Artsmetall"></a>
                </div>
 
                <div class="header__element header__element-phone">
@@ -42,7 +168,7 @@
             <div class="container">
                <div class="wrapper__not-found">
                   <div class="img__not-found">
-                     <img src="/assets/img/404.svg" alt="not found">
+                     <img src="assets/img/404.svg" alt="not found">
                   </div>
                   <h2 class="title__not-found">Страница не найдена</h2>
                   <p class="subtitle__not-found">Возможно ошибочно введен адрес страницы или страница перестала быть
@@ -60,7 +186,7 @@
          <div class="footer-wrapper">
             <div class="container">
                <div class="footer__items">
-                  <div class="logo-footer"><img src="/assets/img/logo.svg" alt="logo"></div>
+                  <div class="logo-footer"><img src="assets/img/logo.svg" alt="logo"></div>
                   <div class="category-column">
                      <a href="#">Распашные ворота</a> <br />
                      <a href="#">Откатные ворота</a>
@@ -86,8 +212,8 @@
             <div class="container">
                <div class="footer-soc__items">
                   <div class="img-soc">
-                     <a href="#"><img src="/assets/img/instagram-gray.svg" alt="instagram"></a>
-                     <a href="#"><img src="/assets/img/vk-gray.svg" alt="vk"></a>
+                     <a href="#"><img src="assets/img/instagram-gray.svg" alt="instagram"></a>
+                     <a href="#"><img src="assets/img/vk-gray.svg" alt="vk"></a>
                      <span class="years">2020 год</span>
                   </div>
                   <div class="links-soc-footer">
@@ -99,63 +225,60 @@
          </div>
       </footer>
 
-   </section>
-
-
-
-
-
-   <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-
-
-   <!--  <section class="screen screen_size_full">
-      <div class="screen__container screen__container__page-gallery">
-         <header class="header">
-            <div class="header__container">
-
-               <div class="header__element header__element-tabs">
-                  <div class="element-wrapper">
-                     <div class="burger">
-                        <span class="burger-line"></span>
-                        <span class="burger-line"></span>
-                        <span class="burger-line"></span>
-                     </div>
-                     <a class="phone-link" href="tel:+74959209490" class="header__element-phone">+7 495 920 94 90</a>
-                  </div>
-               </div>
-
-               <div class="header__element header__element-logo">
-                  <a href="#"><img src="./assets/img/logo.svg" alt="Artsmetall"></a>
-               </div>
-
-               <div class="header__element header__element-phone">
-                  <a class="phone-link" href="tel:+74955023480">+7 495 502 34 80</a>
-               </div>
-
-            </div>
-         </header>
-         <section class="gallery">
-            <div class="container">
-               <div class="intro-content">
-                  <h1 class="intro-content__element intro-content__element-title intro-content__element-title-page">
-                     <span>Каталог</span></h1>
-
-
-
-               </div>
-            </div>
-         </section>
-      </div>
    </section> -->
 
 
+   <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+<!--   <section class="screen screen_size_full">-->
+<!--      <div class="screen__container screen__container__page-gallery">-->
+<!--         <header class="header">-->
+<!--            <div class="header__container">-->
+
+<!--               <div class="header__element header__element-tabs">-->
+<!--                  <div class="element-wrapper">-->
+<!--                     <div class="burger">-->
+<!--                        <span class="burger-line"></span>-->
+<!--                        <span class="burger-line"></span>-->
+<!--                        <span class="burger-line"></span>-->
+<!--                     </div>-->
+<!--                     <a class="phone-link" href="tel:+74959209490" class="header__element-phone">+7 495 920 94 90</a>-->
+<!--                  </div>-->
+<!--               </div>-->
+
+<!--               <div class="header__element header__element-logo">-->
+<!--                  <a href="#"><img src="assets/img/logo.svg" alt="Artsmetall"></a>-->
+<!--               </div>-->
+
+<!--               <div class="header__element header__element-phone">-->
+<!--                  <a class="phone-link" href="tel:+74955023480">+7 495 502 34 80</a>-->
+<!--               </div>-->
+
+<!--            </div>-->
+<!--         </header>-->
+<!--         <section class="gallery">-->
+<!--            <div class="container">-->
+<!--               <div class="intro-content">-->
+<!--                  <h1 class="intro-content__element intro-content__element-title intro-content__element-title-page">-->
+<!--                     <span>Каталог</span></h1>-->
+
+
+
+<!--               </div>-->
+<!--            </div>-->
+<!--         </section>-->
+<!--      </div>-->
+<!--   </section>-->
+
+
 
 
    <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
 
 
-   <!-- <section class="screen screen_size_full screen-intro__fence  ">
+   <section class="screen screen_size_full screen-intro__fence  ">
       <div class="page-fance__ocverlay"></div>
 
       <div class="screen__container screen__container__page-service">
@@ -175,7 +298,7 @@
                </div>
 
                <div class="header__element header__element-logo">
-                  <a href="#"><img src="./assets/img/logo.svg" alt="Artsmetall"></a>
+                  <a href="#"><img src="assets/img/logo.svg" alt="Artsmetall"></a>
                </div>
 
                <div class="header__element header__element-phone">
@@ -217,16 +340,16 @@
             </div>
             <div class="description__features">
                <div class="description__features-column">
-                  <img src="/assets/img/fence-1.svg" alt="features1">
+                  <img src="assets/img/fence-1.svg" alt="features1">
                   <p class="features-text">Применение последних технологий в области обработки и покраски металла</p>
                </div>
                <div class="description__features-column">
-                  <img src="/assets/img/fence-2.svg" alt="features2">
+                  <img src="assets/img/fence-2.svg" alt="features2">
                   <p class="features-text">Профессианализм и обширный опыт команды дизайнеров, архитекторов, инжеренров
                      и менеджеров</p>
                </div>
                <div class=" description__features-column">
-                  <img src="/assets/img/fence-3.svg" alt="features3">
+                  <img src="assets/img/fence-3.svg" alt="features3">
                   <p class="features-text">Высокое качество исходных материалов </p>
                </div>
 
@@ -246,23 +369,23 @@
       </div>
       <div class="finished-project__wrapper">
          <div class="finished-project__wrapper__item">
-            <img src="/assets/img/1.png" alt="work">
+            <img src="assets/img/1.png" alt="work">
             <p>Название проекта</p>
          </div>
          <div class="finished-project__wrapper__item">
-            <img src="/assets/img/2.png" alt="work">
+            <img src="assets/img/2.png" alt="work">
             <p>Название проекта</p>
          </div>
          <div class="finished-project__wrapper__item">
-            <img src="/assets/img/3.png" alt="work">
+            <img src="assets/img/3.png" alt="work">
             <p>Название проекта</p>
          </div>
          <div class="finished-project__wrapper__item">
-            <img src="/assets/img/4.png" alt="work">
+            <img src="assets/img/4.png" alt="work">
             <p>Название проекта</p>
          </div>
          <div class="finished-project__wrapper__item">
-            <img src="/assets/img/5.png" alt="work">
+            <img src="assets/img/5.png" alt="work">
             <p>Название проекта</p>
          </div>
       </div>
@@ -317,13 +440,13 @@
             <div class="other-work__items">
                <div class="other-work__item">
                   <a href="#" class="other-work__item_work other-work__item_work-back"><img
-                        src="/assets/img/back-work.png" alt="back-work"><span class="other-work__title">Название раздела
+                        src="assets/img/back-work.png" alt="back-work"><span class="other-work__title">Название раздела
                         может быть в две
                         строчки</span></a>
                </div>
                <div class="other-work__item">
                   <a href="#" class="other-work__item_work other-work__item_work-next"><img
-                        src="/assets/img/next-work.png" alt="back-work"><span class="other-work__title">Название раздела
+                        src="assets/img/next-work.png" alt="back-work"><span class="other-work__title">Название раздела
                         может быть в две
                         строчки</span></a>
 
@@ -337,7 +460,7 @@
       <div class="footer-wrapper">
          <div class="container">
             <div class="footer__items">
-               <div class="logo-footer"><img src="/assets/img/logo.svg" alt="logo"></div>
+               <div class="logo-footer"><img src="assets/img/logo.svg" alt="logo"></div>
                <div class="category-column">
                   <a href="#">Распашные ворота</a> <br />
                   <a href="#">Откатные ворота</a>
@@ -363,106 +486,8 @@
          <div class="container">
             <div class="footer-soc__items">
                <div class="img-soc">
-                  <a href="#"><img src="/assets/img/instagram-gray.svg" alt="instagram"></a>
-                  <a href="#"><img src="/assets/img/vk-gray.svg" alt="vk"></a>
-                  <span class="years">2020 год</span>
-               </div>
-               <div class="links-soc-footer">
-                  <a href="#"><span>Политика конфиденцальности</span></a>
-                  <a href="https://www.behance.net/sergey-kerber" target="blank">Design by <span> KERBER</span> </a>
-               </div>
-            </div>
-         </div>
-      </div>
-   </footer> -->
-
-
-
-
-
-
-
-
-
-   <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-
-   <!--  <div class="container">
-
-      <div class="popup">
-         <div class="popup__wrapper">
-            <div class="popup-text-wrapper">
-               <div class="popup-text">
-                  <h3>Остались вопросы?</h3>
-                  <p>Оставьте заявку и мы перезвоним вам
-                     в ближайшее время и ответим на все
-                     ваши вопросы</p>
-               </div>
-            </div>
-            <div class="popup-form">
-               <form action="#">
-                  <div class="form-wrapper">
-                     <div>
-                        <label for="fname"></label>
-                        <input type="text" class="fname" name="firstname" placeholder="Имя">
-                     </div>
-                     <div>
-                        <label for="phone"></label>
-                        <input type="tel" class="phone" name="phone" placeholder="Номер телефона">
-                     </div>
-                     <div class="check">
-                        <div class="check__wrapper">
-                           <input type="checkbox" id="c1" name="cc" />
-                           <label for="c1"><span></span>Я ознакомлен с политекой конфиденсальности и обработки
-                              перснальных данных</label>
-                        </div>
-
-                     </div>
-                     <button class="btn-submit">Оставить заявку</button>
-                  </div>
-               </form>
-            </div>
-         </div>
-      </div>
-   </div>
- -->
-
-
-
-   <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-
-
-   <!-- <footer class="footer">
-      <div class="footer-wrapper">
-         <div class="container">
-            <div class="footer__items">
-               <div class="logo-footer"><img src="/assets/img/logo.svg" alt="logo"></div>
-               <div class="category-column">
-                  <a href="#">Распашные ворота</a> <br />
-                  <a href="#">Откатные ворота</a>
-               </div>
-               <div class="category-column">
-                  <a href="#">Кованные поручни</a><br />
-                  <a href="#">Лестничные ограждения</a>
-               </div>
-               <div class="category-column">
-                  <a href="#">Кованные поручни</a><br />
-                  <a href="#">Лестничные ограждения</a>
-               </div>
-               <div class="category-column category-column__number">
-                  <a href="tel:+74955023480" class="number">+7 495 502 34 80
-                  </a><br />
-                  <span>Ежедневно с 9:00 до 20:00</span>
-               </div>
-            </div>
-
-         </div>
-      </div>
-      <div class="footer-soc">
-         <div class="container">
-            <div class="footer-soc__items">
-               <div class="img-soc">
-                  <a href="#"><img src="/assets/img/instagram-gray.svg" alt="instagram"></a>
-                  <a href="#"><img src="/assets/img/vk-gray.svg" alt="vk"></a>
+                  <a href="#"><img src="assets/img/instagram-gray.svg" alt="instagram"></a>
+                  <a href="#"><img src="assets/img/vk-gray.svg" alt="vk"></a>
                   <span class="years">2020 год</span>
                </div>
                <div class="links-soc-footer">
@@ -473,11 +498,9 @@
          </div>
       </div>
    </footer>
- -->
 
-   <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
-   <!--    <section class="overlay overlay-intro overlay_size_full">
+   <section class="overlay overlay-intro overlay_size_full">
       <div class="overlay__menu-rectangle">
         
 
@@ -508,8 +531,8 @@
                   </nav>
 
                   <div class="social-links">
-                     <a href="#"><img src="/assets/img/instagram 2.svg" alt="instagram"></a>
-                     <a href="#"><img src="/assets/img/vk.svg" alt="vk"></a>
+                     <a href="#"><img src="assets/img/instagram 2.svg" alt="instagram"></a>
+                     <a href="#"><img src="assets/img/vk.svg" alt="vk"></a>
                   </div>
 
                </div>
@@ -524,13 +547,13 @@
          </aside>
       </div>
    </section>
- -->
+
 
 
    <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
 
-   <!--   <section class="screen screen-intro screen_size_full">
+  <section class="screen screen-intro screen_size_full">
       <div class="screen__container">
 
 
@@ -549,7 +572,7 @@
                </div>
 
                <div class="header__element header__element-logo">
-                  <a href="#"><img src="./assets/img/logo.svg" alt="Artsmetall"></a>
+                  <a href="#"><img src="assets/img/logo.svg" alt="Artsmetall"></a>
                </div>
 
                <div class="header__element header__element-phone">
@@ -594,12 +617,8 @@
 
 
       </div>
-   </section> -->
+   </section>
 
-
-
-   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-   <script src="/src/js/slick.min.js"></script>
 </body>
 
 </html>

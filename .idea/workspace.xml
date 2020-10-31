@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2155f85b-4ce3-42e3-9a19-fbf4c3a4a215" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/params/webpack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/slick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/base/nullstyle.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/base/utils.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/utils.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/screen/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/screen/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/system/fonts/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/system/fonts/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/dist/7de3aa389add8a7faa03.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/dist/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/dist/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +56,7 @@
       <workItem from="1604083698983" duration="169000" />
       <workItem from="1604083880512" duration="646000" />
       <workItem from="1604133806661" duration="68000" />
-      <workItem from="1604133890265" duration="9264000" />
+      <workItem from="1604133890265" duration="10015000" />
     </task>
     <servers />
   </component>

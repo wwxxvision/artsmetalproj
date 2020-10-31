@@ -30,8 +30,8 @@
     "webpack-dev-server": "^3.10.3"
   },
   "scripts": {
-    "start:server": "webpack-dev-server",
-    "build": "webpack"
+    "dev": "webpack-dev-server --config ./webpack/webpack.config.dev.js",
+    "build:dev": "webpack --config ./webpack/webpack.config.dev.js"
   },
   "keywords": [],
   "author": "",
