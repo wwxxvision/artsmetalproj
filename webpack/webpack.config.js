@@ -1,12 +1,15 @@
 const path = require("path");
-const STATIC = require("./params/webpack");
+const vars = require('./vars');
+
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const CopyPlugin = require('copy-webpack-plugin');
+
 
 module.exports = {
-  mode: "development",
-  entry: path.resolve(__dirname, STATIC.DEVELOPMENT_DIR) + STATIC.ENTRY_APP,
+  mode: "production",
+  entry: vars.ent,
   output: {
     path: path.resolve(__dirname, STATIC.BUILD_DIR),
     filename: STATIC.OUTPUT_FILENAME,
@@ -30,6 +33,15 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: "[contenthash].css",
     }),
+    new CopyPlugin({
+      patterns: [
+        { from: 'src/img', to: 'dist/assets/img' },
+        { from: 'src/fonts', to: 'dist/assets/fonts' },
+      ],
+      options: {
+        concurrency: 100,
+      },
+    })
   ],
   module: {
     rules: [
