@@ -1,3 +1,5 @@
 import "../scss/index.scss";
 
-console.log(true)
+$(document).ready(function () {
+   $(".finished-project__wrapper").slick();
+});

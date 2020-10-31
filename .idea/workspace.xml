@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2155f85b-4ce3-42e3-9a19-fbf4c3a4a215" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/params/webpack.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
       <workItem from="1604083698983" duration="169000" />
       <workItem from="1604083880512" duration="646000" />
       <workItem from="1604133806661" duration="68000" />
-      <workItem from="1604133890265" duration="8729000" />
+      <workItem from="1604133890265" duration="9264000" />
     </task>
     <servers />
   </component>
